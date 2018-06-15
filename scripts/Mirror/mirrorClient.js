@@ -74,6 +74,7 @@
                 emissive: true,
                 parentID: _this.entityID,
                 alpha: 1,
+                isFacingAvatar: false,
                 localRotation: ZERO_ROT,
                 localPosition: {
                     x: 0,
