@@ -80,7 +80,7 @@
                 localPosition: {
                     x: 0,
                     y: 0,
-                    z: mirrorOverlayOffset
+                    z: 0 //mirrorOverlayOffset
                 }
             });
             updateMirrorDimensions(true);
