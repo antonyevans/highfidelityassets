@@ -22,7 +22,7 @@
     var FAR_CLIP_DISTANCE = 16;     // The far clip distance for the spectator camera when the mirror is on
     var mirrorOverlayID;            // The entity ID of the overlay that displays the mirror reflection
     var mirrorOverlayRunning;       // True if mirror overlay is reflecting, false otherwise
-    var mirrorOverlayOffset = 0; // The distance between the center of the mirror and the mirror overlay
+    var mirrorOverlayOffset = ; // The distance between the center of the mirror and the mirror overlay
     var spectatorCameraConfig = Render.getConfig("SecondaryCamera");    // Render configuration for the spectator camera
     var lastDimensions = { x: 0, y: 0 };        // The previous dimensions of the mirror
     var previousFarClipDistance;    // Store the specator camera's previous far clip distance that we override for the mirror
@@ -74,7 +74,7 @@
                 emissive: true,
                 parentID: _this.entityID,
                 alpha: 1,
-                //localRotation: ZERO_ROT,
+                localRotation: ZERO_ROT,
                 localPosition: {
                     x: 0,
                     y: 0,
