@@ -75,6 +75,7 @@
                 parentID: _this.entityID,
                 alpha: 1,
                 isFacingAvatar: false,
+                drawInFront: true,
                 localRotation: ZERO_ROT,
                 localPosition: {
                     x: 0,
