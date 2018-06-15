@@ -74,7 +74,7 @@
                 emissive: true,
                 parentID: _this.entityID,
                 alpha: 1,
-                localRotation: ZERO_ROT,
+                localRotation: mirrorProps.rotation,
                 localPosition: {
                     x: 0,
                     y: 0,
